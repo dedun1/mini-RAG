@@ -1,0 +1,162 @@
+# =========================
+# OS / SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =========================
+# NODE.JS
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnp/
+.pnp.js
+coverage/
+.nyc_output/
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+env/
+*.pkl
+*.db
+db.sqlite3
+instance/
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# =========================
+# JAVA
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+target/
+out/
+
+# =========================
+# C / C++ / Go
+# =========================
+*.o
+*.obj
+*.dll
+*.exe
+*.out
+*.so
+*.dylib
+*.a
+*.lib
+*.lo
+*.la
+*.class
+*.hi
+*.beam
+*.d
+*.idb
+*.pdb
+*.mod
+*.cmx
+*.cmi
+*.cmxa
+*.cmxs
+*.hi
+*.dyn_o
+*.dyn_hi
+*.prof
+
+# =========================
+# DOTNET
+# =========================
+bin/
+obj/
+*.pdb
+*.exe
+*.dll
+*.cache
+*.config
+*.mdb
+*.log
+*.user
+*.vs/
+
+# =========================
+# DATABASE FILES
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.sql
+*.bak
+
+# =========================
+# DOCKER
+# =========================
+.docker/
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+logs/
+log/
+
+# =========================
+# IDEs & EDITORS
+# =========================
+# VS Code
+.vscode/
+.history/
+.code-workspace
+
+# JetBrains (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# OTHER
+# =========================
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
