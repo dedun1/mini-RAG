@@ -32,7 +32,16 @@ pip install -r requirements.txt
 ### Setup the environment variables
 
 '''bash
-cp .env.example .env
+$ cp .env.example .env
 '''
 
 #Set your environment vairables in the '.env' file Like 'OPENAI_API_KEY' value.
+
+# RUN the FASTAPI server 
+
+'''bash
+uvicorn main:app --reload --host 0.0.0.0 --port 5000
+'''
+## POSTMAN COLLECTION
+
+Download the postman collection from [/assets/mini-rag-app/postman_collection.json]
